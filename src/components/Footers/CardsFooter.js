@@ -32,7 +32,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 import landing from "assets/img/theme/landing.jpg";
-import profile from "assets/img/theme/profile.jpg";
+import profile from "assets/img/theme/picp.PNG";
 
 class CardsFooter extends React.Component {
   render() {
@@ -91,12 +91,13 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.linkedin.com/feed/"
                   id="tooltip837440414"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                  <i className="fa fa-linkedin-square" />‏
+
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
@@ -119,7 +120,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/mohmmadnoorjebreen"
                   id="tooltip495507257"
                   target="_blank"
                 >
