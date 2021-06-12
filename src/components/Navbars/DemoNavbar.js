@@ -20,6 +20,7 @@ import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // reactstrap components
+import Profile from "views/examples/Profile.js";
 import {
   Button,
   UncontrolledCollapse,
@@ -74,7 +75,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/how-to" tag={Link}>
                 <img
                   alt="..."
                   src={reactWhite}
@@ -93,7 +94,7 @@ class DemoNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
+                      <Link to="/how-to">
                         <img
                           alt="..."
                           src={argonReact}
@@ -176,12 +177,13 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/portfolio" tag={Link}>
                       Portfolio
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
+                      
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
